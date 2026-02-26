@@ -1,0 +1,295 @@
+@media screen and (max-width: 1280px) {
+    /* header{
+        background-color: aquamarine;
+    } */
+
+   
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .titlename{
+        font-size: 30px;
+    }
+    #services{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .serbox{
+        width: 90%;
+    }
+    /* #project_img img{
+        width: 110%;
+    } */
+    .proimg1,.proimg2,.proimg3,.proimg4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #tech{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+  }
+  
+  @media screen and (max-width: 912px) {
+    #hero_block3{
+        display: none;
+    }
+    #hero_block1,#hero_block2{
+        width: 48%;
+    }
+    #navcon{
+        display: none;
+    }
+    #hero_block1{
+        padding: 3%;
+    }
+    #project_inner{
+        width: 90%;
+    }
+  }
+  @media screen and (max-width: 853px) {
+    .titlename{
+        font-size: 35px;
+    }
+    #navcon2{
+        width: 20%;
+    }
+    #about_inner{
+        padding: 5%;
+    }
+    .slide{
+        width: 100%;
+    }
+    #slider-wrapper{
+        width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 820px) {
+    #services_inner{
+        padding: 0;
+    }
+    .serbox{
+        width: 100%;
+    }
+    #services {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    .titlename {
+        font-size: 30px;
+    }
+    form input{
+        width: 100%;
+    }
+    form textarea{
+        width: 100%;
+    }
+    form button{
+        width: 50%;
+    }
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    #tech_inner{
+        width: 80%;
+    }
+    .proimg1, .proimg2, .proimg3, .proimg4{
+        padding: 0;
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .cursor{
+        display: none;
+    }
+    #tech_inner div p{
+        font-size: 14px;
+    }
+    #eye_holder{
+        display: none;
+    }
+    #logo{
+        font-size: 16px;
+    }
+    #navcon2{
+        width: 30%;
+    }
+    #hero_inner{
+        flex-direction: column;
+    }
+    #hero_block1,#hero_block2{
+        width: 98%;
+    }
+    #hero_block2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hero_block2 img{
+        width: 70%;
+    }
+    .serdescription{
+        padding: 3%;
+    }
+    .serdescription:nth-child(2){
+        display: none;
+    }
+    .serbox{
+        flex-direction: column;
+        padding: 5%;
+        margin-bottom: 3%;
+    }
+    .serbox ul:nth-child(2){
+        width: 100%;
+    }
+    #seemore{
+        width: 50%;
+    }
+    #project_inner div{
+        flex-direction: column;
+    }
+    #project_description{
+        width: 100%;
+    }
+    .proimg1, .proimg2, .proimg3, .proimg4{
+        width: 80%;
+        margin: 4% auto;
+    }
+    #project_img img{
+        animation: none;
+    }
+    #project_description h4{
+        font-size: 18px;
+        text-align: center;
+    }
+    #exploreCon{
+        width: 90%;
+        margin: auto;
+    }
+    .faq_title_holder{
+        height: auto;
+    }
+    .faq_title_holder li{
+        margin: 2%;
+    }
+    #testimonial-slider{
+        display: none;
+    }
+    #slidermobile{
+        display: block;
+    }
+    .slidermobile-container{
+        max-width: 400px;
+    }
+    #footer_inner{
+        flex-direction: column;
+    }
+    #footerbox1,#footerbox2{
+        width: 96%;
+        margin: 2%;
+    }
+    #footerbox1{
+        order: 2;
+    }
+    #footerbox2{
+        order: 1;
+    }
+    form input{
+        width: 96%;
+    }
+    form textarea{
+        width: 96%;
+    }
+    #tech_inner div{
+        padding: 6%;
+    }
+    #tech_inner div img{
+        width: 60%;
+    }
+
+  }
+  @media screen and (max-width: 430px) {
+    .build{
+        font-size: 14px;
+    }
+    .serdescription{
+        font-size: 14px;
+    }
+    .serbox li{
+        font-size: 14px;
+    }
+    .serbox h3{
+        font-size: 16px;
+    }
+    #tech_inner div{
+        width: 31.33%;
+    }
+    #about_inner p{
+        font-size: 14px;
+        color: #212121;
+    }
+    #about_inner h3{
+        font-size: 20px;
+    }
+    #project_description p{
+        font-size: 14px;
+    }
+    #slidermobile h3{
+        font-size: 20px;
+    }
+    #experienceBox h4{
+        font-size: 14px;
+    }
+    #experienceBox h2{
+        font-size: 18px;
+    }
+    #experienceBox li:nth-child(2) p{
+        font-size: 14px;
+    }
+    .faq_title_holder li{
+        font-size: 16px;
+    }
+    #footerbox1 h3{
+        font-size: 20px;
+    }
+    #footerbox2 p{
+        font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .titlename{
+        font-size: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 412px) {
+        
+  }
+  
+  @media screen and (max-width: 393px) {
+  
+  }
+  
+  @media screen and (max-width: 390px) {
+  
+     
+  }
+  @media screen and (max-width: 375px) {
+    
+  }
+  
+  
+  @media screen and (max-width: 360px) {
+      
+  }
+  
+  @media screen and (max-width: 320px) {
+     
+  }
+  
+  @media screen and (max-width: 280px) {
+    
+  }
