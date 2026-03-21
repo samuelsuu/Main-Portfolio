@@ -679,6 +679,30 @@ nav{
     align-items: center;
     color: white;
 }
+
+/* Custom App Store & Play Store Buttons */
+.store-btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.store-btn {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.store-btn:hover {
+    transform: translateY(-3px);
+}
+
+.store-btn img {
+    height: 48px;
+    width: auto;
+    border-radius: 8px; /* For badges that need slight rounding */
+}
 #slidermobile{
     width: 100%;
     background-color: #0b0c0f;
